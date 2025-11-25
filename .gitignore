@@ -205,3 +205,69 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# ---------------------------
+# JetBrains (PyCharm)
+# ---------------------------
+.idea/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf/
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# 기타 불필요한 JetBrains 파일
+*.iml
+out/
+
+# ---------------------------
+# Python 기본
+# ---------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 빌드 디렉토리
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---------------------------
+# Virtual environments
+# ---------------------------
+venv/
+.env/
+.venv/
+ENV/
+env/
+
+# ---------------------------
+# 개발 툴 관련
+# ---------------------------
+.mypy_cache/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# ---------------------------
+# Jupyter Notebook
+# ---------------------------
+.ipynb_checkpoints/
+
+# ---------------------------
+# 시스템 파일
+# ---------------------------
+.DS_Store
+Thumbs.db
+
